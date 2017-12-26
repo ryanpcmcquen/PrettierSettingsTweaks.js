@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Prettier settings tweaks",
+    "description": "Changes https://prettier.io/playground/ to have 4 space indentation by default.",
+    "version": "0.1.0",
+
+    "content_scripts": [{
+        "run_at": "document_end",
+        "matches": [
+            "https://prettier.io/",
+            "https://prettier.io/*"
+        ],
+        "js": [
+            "PrettierSettingsTweaks.js"
+        ]
+    }]
+}
