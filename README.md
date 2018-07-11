@@ -1,2 +1,2 @@
 # PrettierSettingsTweaks.js
-Changes the Prettier playground to use 4 spaces by default and parens in all arrow functions.
+Changes https://prettier.io/playground/ to have 4 space indentation by default, single quotes, and parens in all arrow functions.
