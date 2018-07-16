@@ -3,7 +3,7 @@
 
     "name": "Prettier settings tweaks",
     "description": "Changes https://prettier.io/playground/ to have 4 space indentation by default, single quotes, and parens in all arrow functions.",
-    "version": "0.3.0",
+    "version": "0.3.1",
 
     "content_scripts": [{
         "run_at": "document_end",
