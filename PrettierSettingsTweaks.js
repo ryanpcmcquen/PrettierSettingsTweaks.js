@@ -1,13 +1,6 @@
-window.addEventListener('load', () => {
+(() => {
     'use strict';
-    document.querySelector(
-        '[title="Number of spaces per indentation level."] input'
-    ).value = 4;
-    document.querySelector(
-        '[title="Use single quotes instead of double quotes."] input'
-    ).checked = true;
-    document.querySelector(
-        '[title="Include parentheses around a sole arrow function parameter."] select'
-    ).value =
-        'always';
-});
+    if (document.location.href === 'https://prettier.io/playground/') {
+        document.location.href = 'https://prettier.io/playground/#N4Igxg9gdgLgprEAuEIA0IIAcYEtoDOyoAhgE5kQDuACuQkSiQDZUkCeRGARmSWAGs4MAMpZ+uKAHNkMMgFc4GSQThkYNPlIC2JZADMWqjACsCADwBCfQcJEltcADKS4Bo0pDiyqsshDcJNzszNDoXmSSMADquAAmMAAWyAAcAAwYWJSq0XxY-llwvgBubhhkcACO8rgVmiQ6ekiGzMYgqtq4sgqeBJJSzHAAivIQ8N2KGDBBsQnJSAAsU3y4zP0AwhDauv5Q0GUg8qoAKkGMLaoAvpdAA';
+    }
+})();
