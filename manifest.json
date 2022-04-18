@@ -2,8 +2,8 @@
     "manifest_version": 2,
 
     "name": "Prettier settings tweaks",
-    "description": "Changes prettier.io/playground/ to have 4 space indentation, single quotes, and parens in all arrow functions.",
-    "version": "0.4.3",
+    "description": "Changes prettier.io/playground/ to have 4 space indentation, and parens in all arrow functions.",
+    "version": "0.5.0",
 
     "content_scripts": [{
         "run_at": "document_end",
